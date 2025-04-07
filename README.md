@@ -38,13 +38,13 @@ CREATE TABLE evento (
 
 CREATE TABLE status_evento (
     idStatus SERIAL PRIMARY KEY,
-    status VARCHAR(50) NOT NULL.
+    status VARCHAR(50) NOT NULL,
     statusAtivo BOOLEAN
 );
 
 CREATE TABLE tipo_evento (
     idTipo SERIAL PRIMARY KEY,
-    tipo VARCHAR(50) NOT NULL.
+    tipo VARCHAR(50) NOT NULL,
     tipoAtivo BOOLEAN
 );
 
